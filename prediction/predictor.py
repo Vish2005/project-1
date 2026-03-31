@@ -4,7 +4,7 @@ from langdetect import detect
 from explanation.explainer import SentimentExplainer
 
 class SentimentPredictor:
-    def __init__(self, model_name="cardiffnlp/twitter-roberta-base-sentiment-latest"):
+    def __init__(self, model_name="lxyuan/distilbert-base-multilingual-cased-sentiments-student"):
         print(f"Loading BERT model: {model_name}...")
         self.sentiment_pipeline = pipeline("sentiment-analysis", model=model_name)
         self.explainer = SentimentExplainer(self.sentiment_pipeline)
