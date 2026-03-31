@@ -1,3 +1,13 @@
+---
+title: Multi Lingual Sentiment Analyzer
+emoji: 🚀
+colorFrom: purple
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🧠 Multi-lingual Sentiment Intelligence Suite
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
