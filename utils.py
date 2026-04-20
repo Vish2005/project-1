@@ -57,4 +57,4 @@ def create_pdf_report(patient_data, final_risk, model_predictions):
     for tip in tips:
         pdf.cell(0, 8, f"- {tip}", 0, 1, 'L')
         
-    return pdf.output(dest='S').encode('latin1')
+    return bytes(pdf.output())
